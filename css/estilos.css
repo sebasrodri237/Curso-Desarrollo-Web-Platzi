@@ -1,0 +1,5 @@
+body{
+    background: red !important;/*Utilizado para que sea el
+    estilo mas fuerte o pesado, no se recomienda ya que rompe
+    la cascada*/
+}
