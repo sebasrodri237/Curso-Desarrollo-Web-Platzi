@@ -18,13 +18,13 @@
             <nav>
                 <ol>
                     <li>
-                        <a href="#">Portafolio</a>
+                        <a href="#portafolio">Portafolio</a><!--# Indica que es un enlace interno o local-->
                     </li>
                     <li>
-                        <a href="#">Experiencia</a>
+                        <a href="#eventos">Experiencia</a>
                     </li>
                     <li>
-                        <a href="#">Trabajemos juntos</a>
+                        <a href="#contactos">Trabajemos juntos</a>
                     </li>
                 </ol>    
             </nav>
@@ -36,7 +36,7 @@
         </h1>
         <img src="Imagenes/portada.jpg" width="500" height="300" alt="Imagen de portada">
     </section>    
-    <section>
+    <section id="portafolio">
         <h2>Portafolio de proyectos destacados</h2>
         <article>
             <h3>Proyecto 1</h3>
@@ -47,7 +47,7 @@
             <img src="Imagenes/proyecto.png" alt="Imagen del proyecto" width="500">    
         </article><!-- Contenido que vive por si mismo -->
     </section>    
-    <section>
+    <section id="eventos">
         <h2>Información sobre estudios, participaciones eventos...</h2>
         <article>
             <figure>
@@ -55,10 +55,11 @@
             </figure>
             <h3>Subtitulo</h3>
             <p>Descripción de lo sucedido o realizado</p>
-            <a href="#">Enlace del evento o info</a>
+            <a href="https://www.youtube.com/watch?v=uESeYY--0r0&t=3368s" target="_black">Enlace del evento o info</a>
+            <!--Con _black abrira el enlace en una nueva pestaña-->
         </article>
     </section>    
-    <section>
+    <section id="contactos">
         <form action="">
             <h3>¿Deseas contactarme?</h3>
             <input type="text" placeholder="Déjame tu email">
