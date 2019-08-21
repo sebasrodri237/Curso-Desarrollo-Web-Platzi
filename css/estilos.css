@@ -1,10 +1,14 @@
+/* TODO ESTO ES UNA REGLA EN CSS
+ESTO ES EL SELECTOR header{Esto es la declaración
+Esto es una propiedad    background: Esto es un valor red;
+}*/
+
 header{
     background: red /*!important;*//*Utilizado para que sea el
     estilo mas fuerte o pesado, no se recomienda ya que rompe
     la cascada*/
 }
 
-/* TODO ESTO ES UNA REGLA EN CSS
-ESTO ES EL SELECTOR header{Esto es la declaración
-Esto es una propiedad    background: Esto es un valor red;
-}*/
+.link{
+
+}
