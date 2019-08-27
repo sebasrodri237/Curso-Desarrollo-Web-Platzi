@@ -3,12 +3,22 @@ ESTO ES EL SELECTOR header{Esto es la declaración
 Esto es una propiedad    background: Esto es un valor red;
 }*/
 
+/*
 header{
     background: red /*!important;*//*Utilizado para que sea el
     estilo mas fuerte o pesado, no se recomienda ya que rompe
-    la cascada*/
+    la cascada
+}
+*/
+body{
+
+    font-family: 'Source Sans Pro', sans-serif;
+    /*Busca Source Sans Pro, si no esta usa sans-serif y asi..*/
+
 }
 
-.link{
+h1,h2,h3,h4,h5,h6{
 
+    font-family: 'Fjalla One', sans-serif;
+    /*Una fuente con mas de una palabra va entre '' */
 }
