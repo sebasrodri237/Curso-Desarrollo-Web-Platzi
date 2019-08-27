@@ -21,4 +21,14 @@ h1,h2,h3,h4,h5,h6{
 
     font-family: 'Fjalla One', sans-serif;
     /*Una fuente con mas de una palabra va entre '' */
+    font-weight: normal;/*Grosor de la fuente*/
+}
+
+h1{
+
+    font-size: 40px;
+    line-height: 1.5em;/*Alto de linea, separación entre lineas*/
+    letter-spacing: -0.2px;/*Separación entre letras*/
+    text-transform: uppercase;/*Todas las letras en mayusculas*/
+
 }
