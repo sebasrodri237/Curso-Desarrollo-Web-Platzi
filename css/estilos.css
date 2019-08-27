@@ -29,6 +29,21 @@ h1{
     font-size: 40px;
     line-height: 1.5em;/*Alto de linea, separación entre lineas*/
     letter-spacing: -0.2px;/*Separación entre letras*/
-    text-transform: uppercase;/*Todas las letras en mayusculas*/
+    /*text-transform: uppercase;Todas las letras en mayusculas*/
+    /*text-decoration: underline;Subrayar el texto*/
+}
 
+.hero{
+
+    height: 300px;
+}
+
+.project-details{
+
+    width: 500px;
+}
+
+.project-imageContainer{
+
+    width: 500px;
 }
