@@ -14,7 +14,7 @@ body{
 
     font-family: 'Source Sans Pro', sans-serif;
     /*Busca Source Sans Pro, si no esta usa sans-serif y asi..*/
-
+    margin: 0px;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -51,6 +51,10 @@ h1 strong{
     background-position-x: right; 
     /*Propiedad mas especifica para solo eje x, con right estara desde la derecha*/
 }
+.portfolio{
+
+    background: #fafafa;
+}
 
 .project{
 
@@ -60,7 +64,10 @@ h1 strong{
     border: 1px solid gray;
     border-radius: 10px;
     /*border-top-left-radius: 30px;*/
+    margin:10px;
     margin-bottom: 15px;
+    padding: 20px;
+    background: white;
     
 }
 
