@@ -32,6 +32,7 @@ h1{
     /*text-transform: uppercase;Todas las letras en mayusculas*/
     /*text-decoration: underline;Subrayar el texto*/
     color: white;
+    /*margin: 20px 20px 20px 20px;/*top right bottom left*/
 }
 
 h1 strong{
@@ -59,11 +60,16 @@ h1 strong{
     border: 1px solid gray;
     border-radius: 10px;
     /*border-top-left-radius: 30px;*/
+    margin-bottom: 15px;
+    
 }
 
 .project-details{
 
     width: 500px;
+    /*margin: 0px auto;/*0px top y 
+    bottom y auto lo organiza segun espacio de 
+    right y left, auto es muy buena practica*/
 }
 
 .project-imageContainer{
