@@ -51,6 +51,16 @@ h1 strong{
     /*Propiedad mas especifica para solo eje x, con right estara desde la derecha*/
 }
 
+.project{
+
+    /*border-width: 15px;
+    border-color: red;
+    border-style: solid;*/
+    border: 1px solid gray;
+    border-radius: 10px;
+    /*border-top-left-radius: 30px;*/
+}
+
 .project-details{
 
     width: 500px;
