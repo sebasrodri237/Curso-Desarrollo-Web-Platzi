@@ -107,6 +107,11 @@ en ancho visual de la pagina el siguiente elemento caiga
 o continue fuera el espacio visual, wrap para que 
 caiga y por defecto nowrap*/
 
+/*justify-content: , manera de alinear horizontalmente los elementos
+ya sea center, right , left, space-between (espacio entre elemento 
+sin espaciar los elementos extremos),
+space-evenly (Espaciado entre elementos igual) y space-around (Espacio
+igual de derecha e izquierda por cada elemento) 
 }
 
 .box{
