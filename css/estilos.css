@@ -98,7 +98,14 @@ h1 strong{
 }
 
 .flexbox{
-
+display: flex;
+/*flex-direction: column, esta propiedad direcciona el modo
+de visualizacion o ordenamiento ya sea en column o row, por
+defecto con flex es row*/
+flex-wrap: wrap;/*Propiedad que permite al acabarse el espacio
+en ancho visual de la pagina el siguiente elemento caiga
+o continue fuera el espacio visual, wrap para que 
+caiga y por defecto nowrap*/
 
 }
 
@@ -107,4 +114,7 @@ h1 strong{
     width: 200px;
     height: 200px;
     border: 1px solid red;
+
+    flex-shrink: 0;/*Propiedad para hijos con padres display flex, capacidad
+    de encogimiento del elemento, propiedad de 0-1*/
 }
