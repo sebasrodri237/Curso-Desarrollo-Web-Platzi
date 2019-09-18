@@ -272,7 +272,7 @@ en la parte baja del alto de la caja contenedora*/
     text-align: left;
 }
 
-.event-utl{
+.event-url{
 
     border: 1px solid #056fff;
     padding: 5px 20px;
@@ -280,4 +280,72 @@ en la parte baja del alto de la caja contenedora*/
     color: #056fff;
     border-radius: 5px;
 
+}
+
+.contact{
+
+    background-color: #056fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social{
+
+}
+
+.social-link{
+
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: 0 10px;
+}
+
+.social-link.twitter{
+
+    background-image: url('../Imagenes/twitter.png');
+}
+
+.social-link.facebook{
+
+    background-image: url('../Imagenes/facebook.png');
+}
+
+.social-link.github{
+
+    background-image: url('../Imagenes/github.png');
+}
+
+.form-email input{
+
+    border-color: gray;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 10px 20px 10px 25px;
+    background-image: url('../Imagenes/email.png');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px; 
+}
+
+.form-email button{
+
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.form-email h3{
+
+    font-family: 'Source Sans Pro', sans-serif;
 }
