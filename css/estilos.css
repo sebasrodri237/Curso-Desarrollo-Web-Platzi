@@ -41,6 +41,17 @@ h1 strong{
     color: #026fff;
 }
 
+ol,ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+figure{
+
+    margin: 0;
+}
+
 .hero{
 
     height: 300px;/*Tamaño del elemento*/
@@ -89,12 +100,35 @@ h1 strong{
 
     background-color: #1b2127;
     color:white;
+    display: flex;
+    height: 90px;
+    justify-content: space-between;
+}
+
+.header ol{
+
+    height: inherit;/*El atributo inherit significa 
+    heredad el atributo*/
+    display: flex;
+}
+
+.header ol li{
+
+    height: inherit; 
 }
 
 .header a{
 
+    display: flex;
+    align-items: center;
+    height: inherit;
     color: white;
     text-decoration: none;
+    padding: 0 10px;
+}
+.menu{
+
+    height: inherit;
 }
 
 .flexbox{
