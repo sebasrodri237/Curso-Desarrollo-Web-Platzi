@@ -33,6 +33,7 @@ h1{
     /*text-transform: uppercase;Todas las letras en mayusculas*/
     /*text-decoration: underline;Subrayar el texto*/
     color: white;
+    margin: 0;
     /*margin: 20px 20px 20px 20px;/*top right bottom left*/
 }
 
@@ -62,6 +63,8 @@ figure{
     /*background-position: /*Eje x Eje y*/
     background-position-x: right; 
     /*Propiedad mas especifica para solo eje x, con right estara desde la derecha*/
+    display: flex;
+    align-items: center;
 }
 .portfolio{
 
@@ -101,7 +104,8 @@ figure{
     background-color: #1b2127;
     color:white;
     display: flex;
-    height: 90px;
+    height: 70px;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -166,4 +170,18 @@ en la parte baja del alto de la caja contenedora*/
 
     flex-shrink: 0;/*Propiedad para hijos con padres display flex, capacidad
     de encogimiento del elemento, propiedad de 0-1*/
+}
+
+.footer{
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img{
+
+    vertical-align: middle;/*Otro tipo de alineación vertical
+    que le dara alineado a la imagen y al texto a su alrededor*/
 }
