@@ -101,7 +101,12 @@ h1 strong{
 display: flex;
 /*flex-direction: column, esta propiedad direcciona el modo
 de visualizacion o ordenamiento ya sea en column o row, por
-defecto con flex es row*/
+defecto con flex es row, si estaba en row y lo cambie a columna
+la forma de alinear elementos sera invetida, es decir
+utilizo justifi-content para alinear verticalmente y de igual
+manera para alig-items con alineación en horizontal*/
+height: 200px;/*Lo creo para obtener un espacio vertical y probar el
+alineamiento de forma vertical*/
 flex-wrap: wrap;/*Propiedad que permite al acabarse el espacio
 en ancho visual de la pagina el siguiente elemento caiga
 o continue fuera el espacio visual, wrap para que 
@@ -111,13 +116,18 @@ caiga y por defecto nowrap*/
 ya sea center, right , left, space-between (espacio entre elemento 
 sin espaciar los elementos extremos),
 space-evenly (Espaciado entre elementos igual) y space-around (Espacio
-igual de derecha e izquierda por cada elemento) 
+igual de derecha e izquierda por cada elemento) */
+
+align-items: flex-start;/*Ordena los elementos en vertical, por defecto
+los ordena todos hacia arriba con flex-star, con flex-end los ordena
+en la parte baja del alto de la caja contenedora*/
+
 }
 
 .box{
 
-    width: 200px;
-    height: 200px;
+    width: 50px;
+    height: 50px;
     border: 1px solid red;
 
     flex-shrink: 0;/*Propiedad para hijos con padres display flex, capacidad
