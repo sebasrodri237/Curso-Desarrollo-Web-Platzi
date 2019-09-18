@@ -222,3 +222,62 @@ en la parte baja del alto de la caja contenedora*/
     vertical-align: middle;/*Otro tipo de alineación vertical
     que le dara alineado a la imagen y al texto a su alrededor*/
 }
+
+.event-list{
+
+    display: flex;
+}
+
+.event{
+
+    margin: 10px;
+    width: 480px; 
+    flex-shrink: 0;/*Especifica el valor de contracción de los
+    elementos de un contenedor*/
+    border-radius: 10px;
+    overflow: hidden;/*recortar contenido, dibujar 
+    barras de desplazamiento o mostrar el contenido excedente 
+    en un elemento a nivel de bloque, salian esquinas del contenedor
+    que no eran visiblemente correctas*/
+    background-color: #f4fbff;
+}
+
+.event-list-title{
+
+    margin-left: 20px;
+}
+
+.event img{
+
+    width: 480px;
+    height: 200px;
+    object-fit: cover;/*Adapata el contenido del contenedor
+    al tamaño del contenedor, esto para evitar que la imagen
+    pierda calidad y lectura*/
+}
+
+.event-details{
+
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;/*En este caso servira para superponer 
+    un elemento de otro*/
+    padding: 20px;
+    text-align: center;
+}
+
+.event-description{
+
+    text-align: left;
+}
+
+.event-utl{
+
+    border: 1px solid #056fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #056fff;
+    border-radius: 5px;
+
+}
