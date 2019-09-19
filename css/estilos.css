@@ -65,17 +65,24 @@ figure{
 
 .hero{
 
-    height: 300px;/*Tamaño del elemento*/
+    height: 300px;
     background-color: #1b2127;
-    background-image: url('../Imagenes/portada.jpg');
-    background-size: 500px 300px; /*Width Height*/
+    /* background-image: url('../Imagenes/portada.jpg');
+    background-size: 500px 300px; 
     background-repeat: no-repeat;
-    /*background-position: /*Eje x Eje y*/
     background-position-x: right; 
-    /*Propiedad mas especifica para solo eje x, con right estara desde la derecha*/
+    Propiedad mas especifica para solo eje x, con right estara desde la derecha */
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
 }
+
+.hero-image{
+
+    object-fit: cover;
+}
+
 .portfolio{
 
     background: #fafafa;
@@ -223,11 +230,6 @@ en la parte baja del alto de la caja contenedora*/
     que le dara alineado a la imagen y al texto a su alrededor*/
 }
 
-.event-list{
-
-    display: flex;
-}
-
 .event{
 
     margin: 10px;
@@ -240,6 +242,12 @@ en la parte baja del alto de la caja contenedora*/
     en un elemento a nivel de bloque, salian esquinas del contenedor
     que no eran visiblemente correctas*/
     background-color: #f4fbff;
+}
+
+.event-list{
+
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .event-list-title{
@@ -342,10 +350,22 @@ en la parte baja del alto de la caja contenedora*/
     padding: 10px 0;
     border-radius: 5px;
     width: 100px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .form-email h3{
 
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+.container{
+
+    width: 1200px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
